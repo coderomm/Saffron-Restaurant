@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Saffron Restaurant Web Site Design By OM SHARMA</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <!-- Favicons -->
+    <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aladin&family=Forum&family=Koulen&family=Lobster&family=Oleo+Script+Swash+Caps&family=Playball&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <!-- fa fa icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--  -->
+
+    <!-- Template Main CSS File -->
+    <link href="style.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Topbar -->
+    <section id="topbar" class="about-topbar fixed-top">
+        <div class="container">
+            <div class="contact-info">
+                <i class="fa fa-phone"><span>099282 80190 </span></i>
+                <i class="topbar-display-none fa fa-clock-o"><span> Mon-Sat: 8:00 AM – 11:00 PM</span></i>
+            </div>
+            <div class="languages header-social">
+                <ul class="header_social_list">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                    <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Header -->
+    <header id="header" class="about-header fixed-top d-flex align-items-cente">
+        <div class="container container-xl d-flex align-items-center">
+            <h1 class="logo me-auto me-lg-0"><a href="index.html">Saffron</a></h1>
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="" href="index.html">Home</a></li>
+                    <li><a class="" href="about.html">About</a></li>
+                    <li><a class="" href="menu.html">Menu</a></li>
+                    <li><a class="" href="specials.html">Specials</a></li>
+                    <li><a class="" href="events.html">Events</a></li>
+                    <li><a class="" href="chefs.html">Chefs</a></li>
+                    <li><a class="" href="gallery.html">Gallery</a></li>
+                    <li><a class="" href="contact.html">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+            <a href="contact.html" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
+
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner" class="banner contact-banner">
+        <div class="aboutpg-overlay"></div>
+        <div class="container" data-aos="zoom-in" data-aos-delay="100">
+            <div class="row">
+                <div class="cap about-cap">
+                    <h1>CONTACT<span> SAFFRON</span></h1>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="gtway">
+        <ul>
+            <li><a href="index.html">Home &nbsp; -</a></li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <!-- Booking -->
+    <section id="booking" class="booking contact-booking">
+        <!-- <img class="iconbg1" src="imgs/iconbg1.png" alt="images"> -->
+        <!-- <img class="iconbg2" src="imgs/iconbg2.png" alt="images"> -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="content-heading">
+                        <div class="heading-bg">
+                            <h2>booking</h2>
+                        </div>
+                        <div class="heading-main" data-aos="zoom-in" data-aos-delay="100">
+                            <h4>booking your favorite table</h4>
+                            <p>Best food for you and family </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="image-form-booking">
+                        <div class="col-md-6 col-xs-12">
+                            <div class="image">
+                                <img src="imgs/img01booking.jpg" alt="images">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-12">
+                            <div class="booking-form booking-form-bg-clr">
+                                <h5 class="booking-form-heading">
+                                    Booking Table In Online
+                                </h5>
+                                <div class="booking-form-sub-heading">
+                                    Fillup the input options
+                                </div>
+                                <form action="" method="post" id="commentform" class="comment-form"
+                                    novalidate="novalidate">
+                                    <fieldset class="select">
+                                        <select name="persons" id="persons" required="">
+                                            <option value="">Persons</option>
+                                            <option value="Persons 01">01 Persons</option>
+                                            <option value="Persons 01">02 Persons</option>
+                                            <option value="Persons 01">05 Persons</option>
+                                            <option value="Persons 01">10 Persons</option>
+                                        </select>
+                                    </fieldset>
+                                    <fieldset class="email">
+                                        <input type="email" id="email" placeholder="Email Address" class="tb-my-input"
+                                            name="email" tabindex="1" value="" aria-required="true" required="">
+                                    </fieldset>
+                                    <fieldset class="select">
+                                        <select name="date-booking" id="date-booking" required="">
+                                            <option value="">Choose Date</option>
+                                            <option value="Persons 01">28//07/2021</option>
+                                            <option value="Persons 01">02//8/2021</option>
+                                        </select>
+                                    </fieldset>
+                                    <fieldset class="select">
+                                        <select name="time-booking" id="time-booking" required="">
+                                            <option value="">Select Time</option>
+                                            <option value="Persons 01">15h-17h</option>
+                                            <option value="Persons 01">16h30-17h30</option>
+                                        </select>
+                                    </fieldset>
+                                    <fieldset class="phone">
+                                        <input type="number" id="phone" placeholder="Phone Number" class="tb-my-input"
+                                            name="phone" tabindex="2" value="" aria-required="true" required="">
+                                    </fieldset>
+                                    <div class="btn-submit">
+                                        <a class="bt bt-banner" href="#">Book Now</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-Us Banner -->
+    <div class="contact-info">
+        <div class="content-heading">
+            <div class="heading-bg">
+                <h2>Contact</h2>
+            </div>
+            <div class="heading-main" data-aos="zoom-in" data-aos-delay="100">
+                <h4>Contact Us</h4>
+                <p>We love to hear from you</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 contact-grid contact-grid1">
+                    <div class="cnt">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <h4>Address</h4>
+                        <p>12K Street, 45 Building Road <br>
+                            <span>California, USA.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 contact-grid contact-grid2">
+                    <div class="cnt">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <h4>Call Us</h4>
+                        <p>+1234 758 839 <br>
+                            <span>+1273 748 730</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 contact-grid contact-grid3">
+                    <div class="cnt">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <h4>Email</h4>
+                        <p><a href="#">info@example1.com</a> <br>
+                            <span><a href="#">info@example2.com</a></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Map Address -->
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7308188.595714306!2d69.37727150675745!3d26.56988444944806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396a3efaf7e30e37%3A0xb52b9b4506c088e5!2sRajasthan!5e0!3m2!1sen!2sin!4v1646726679283!5m2!1sen!2sin"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!-- FOR MORE INFORMATION -->
+    <div class="moreinfo">
+        <div class="container">
+            <div class="row">
+                <h4>For More Information<span></span></h4>
+                <div class="col-md-6">
+                    <div class="moreinfo-box">
+                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                        <div class="cnt-right">
+                            <p>Telephone </p><span>+1 (100)222-23-33</span>
+                        </div>
+                    </div>
+                    <div class="moreinfo-box">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <div class="cnt-right">
+                            <p>Mail </p><a href="#">info@example.com</a>
+                        </div>
+                    </div>
+                    <div class="moreinfo-box">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <div class="cnt-right">
+                            <p>Location</p><span>7784 Diamonds street, California, US.</span>
+                        </div>
+                    </div>
+                    <ul class="social-nav contact-nav model-3d-0 footer-social w3_agile_social">
+                        <li class="share">Share On : </li>
+                        <li><a href="#" class="facebook">
+                                <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                                <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                            </a></li>
+                        <li><a href="#" class="twitter">
+                                <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                                <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                            </a></li>
+                        <li><a href="#" class="instagram">
+                                <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                                <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+                            </a></li>
+                        <li><a href="#" class="pinterest">
+                                <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                                <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 cnt-form">
+                    <h5>contact <span>form</span></h5>
+                    <form action="#" method="post">
+                        <div class="form-input">
+                            <input type="text" name="Name" placeholder="Name" required="required">
+                        </div>
+                        <div class="form-input">
+                            <input type="email" name="Email" placeholder="Email" required="required">
+                        </div>
+                        <div class="form-input">
+                            <input type="text" name="Subject" placeholder="Subject" required="required">
+                        </div>
+                        <div class="form-input">
+                            <input type="message" name="Message" placeholder="Message" required="required">
+                        </div>
+                        <input class="form-btn" type="submit" value="SEND">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- coupan Section Start -->
+    <div class="coupan-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 coupans-col-div ">
+                    <div class="coupan-box">
+                        <div class="fa-box">
+                            <i class="fa fa-truck" aria-hidden="true"></i>
+                        </div>
+                        <div class="txt-box">
+                            <h3>FREE SHIPPING</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 coupans-col-div">
+                    <div class="coupan-box">
+                        <div class="fa-box">
+                            <i class="fa fa-headphones" aria-hidden="true"></i>
+                        </div>
+                        <div class="txt-box">
+                            <h3>24/7 SUPPORT</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 coupans-col-div">
+                    <div class="coupan-box">
+                        <div class="fa-box">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                        </div>
+                        <div class="txt-box">
+                            <h3>MONEY BACK GUARANTEE</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 coupans-col-div">
+                    <div class="coupan-box">
+                        <div class="fa-box">
+                            <i class="fa fa-gift" aria-hidden="true"></i>
+                        </div>
+                        <div class="txt-box">
+                            <h3>FREE GIFT COUPONS</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer-->
+    <section id="footer" class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 col-sm-12 footer-left">
+                    <h2>SAFFRON RESTAURANT<a href="index.html"></a></h2>
+                    <p></p>
+                </div>
+                <div class="col-md-10 col-sm-12 footer-right">
+                    <div class="col-md-3 col-sm-6  footer-box footer-box-one">
+                        <h2>Our <span>Information</span> </h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">Our Story</a></li>
+                            <li><a href="specials.html">Facilities</a></li>
+                            <li><a href="events.html">Private Functions</a></li>
+                            <li><a href="menu.html">Our Food</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 col-sm-6 footer-box-two">
+                        <h2>Contact <span>Information</span></h2>
+                        <div class="footer-address">
+                            <div class="footer-address-box">
+                                <div class="footer-address-left">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="footer-address-right">
+                                    <h6>Phone Number</h6>
+                                    <p>+91 8999 292529</p>
+                                </div>
+                            </div>
+                            <div class="footer-address-box">
+                                <div class="footer-address-left">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div class="footer-address-right">
+                                    <h6>Email Address</h6>
+                                    <p><a href="mailto:example@email.com"> omopyt2020@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="footer-address-box">
+                                <div class="footer-address-left">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </div>
+                                <div class="footer-address-right">
+                                    <h6>Location</h6>
+                                    <p>B.L. Soni College , Bhilwara, Rajasthan 311001
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 footer-box flickr-post">
+                        <h2>Flickr <span>Posts</span></h2>
+                        <ul>
+                            <li><a href="#"><img src="imgs/history1.jpg" class="img-responsive"></a>
+                            </li>
+                            <li><a href="#"><img src="imgs/history2.jpg" class="img-responsive"></a>
+                            </li>
+                            <li><a href="#"><img src="imgs/history3.jpg" class="img-responsive"></a>
+                            </li>
+                            <li><a href="#"><img src="imgs/history4.jpg" class="img-responsive"></a>
+                            </li>
+                            <li><a href="#"><img src="imgs/menu/cake.jpg" class="img-responsive"></a>
+                            </li>
+                            <li><a href="#"><img src="imgs/menu/caesar.jpg" class="img-responsive"></a>
+                            </li>
+                            <li><a href="#"><img src="imgs/chefs/chefs-1.jpg" class="img-responsive"></a>
+                            </li>
+                            <li><a href="#"><img src="imgs/chefs/chefs-2.jpg" class="img-responsive"></a>
+                            </li>
+                            <li><a href="#"><img src="imgs/chefs/chefs-3.jpg" class="img-responsive"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <div class="col-md-6 newsleft">
+                        <h3>SIGN UP FOR NEWSLETTER !</h3>
+                    </div>
+                    <div class="col-md-6 newsright">
+                        <form action="#" method="post">
+                            <input type="email" placeholder="Enter your email..." name="email" required="">
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+                <p class="copy-right"><a>&copy 2022 Saffron Restaurant Web Templet. All rights reserved | Design by
+                        <span>OM
+                            SHARMA</span></a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- chef counter script -->
+    <script>function inVisible(element) {
+            //Checking if the element is
+            //visible in the viewport
+            var WindowTop = $(window).scrollTop();
+            var WindowBottom = WindowTop + $(window).height();
+            var ElementTop = element.offset().top;
+            var ElementBottom = ElementTop + element.height();
+            //animating the element if it is
+            //visible in the viewport
+            if ((ElementBottom <= WindowBottom) && ElementTop >= WindowTop)
+                animate(element);
+        }
+
+        function animate(element) {
+            //Animating the element if not animated before
+            if (!element.hasClass('ms-animated')) {
+                var maxval = element.data('max');
+                var html = element.html();
+                element.addClass("ms-animated");
+                $({
+                    countNum: element.html()
+                }).animate({
+                    countNum: maxval
+                }, {
+                    //duration 5 seconds
+                    duration: 5000,
+                    easing: 'linear',
+                    step: function () {
+                        element.html(Math.floor(this.countNum) + html);
+                    },
+                    complete: function () {
+                        element.html(this.countNum + html);
+                    }
+                });
+            }
+
+        }
+
+        //When the document is ready
+        $(function () {
+            //This is triggered when the
+            //user scrolls the page
+            $(window).scroll(function () {
+                //Checking if each items to animate are 
+                //visible in the viewport
+                $("h2[data-max]").each(function () {
+                    inVisible($(this));
+                });
+            })
+        });
+    </script>
+
+</body>
+
+</html>
